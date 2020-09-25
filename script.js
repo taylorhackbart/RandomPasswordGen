@@ -20,7 +20,7 @@ var declareLowerCase;
 
 // Create function to generate randoms
 function getPasswordOptions() {
-  var declareLength = prompt("Password must be between 8 and 120 characters");
+  var declareLength = prompt("Choose a password length. Must be between 8 and 120 characters (enter a number between 8 and 120)");
 
   while (declareLength < 7 || declareLength > 121) {
     alert("Password length must be between 8-120 characters Try again");
