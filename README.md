@@ -1,7 +1,7 @@
 # Random Password Generator - Homework 3
 
 ## Description 
-This website allows you to generate a password between 8-120 characters. It will prompt you to choose the password length and the option to include different parameters in confirm statements. If you choose a number outside of the specific range (aka below 8 or above 120), it will prompt you to choose a new number within the range. Also, if you do not choose any of the parameters the pop up, it will prompt you to choose at least one. 
+This website allows you to generate a password between 8-120 characters. It will prompt you to choose the password length and the option to include different parameters in confirm statements. If you choose a number outside of the specific range (aka below 8 or above 120), it will prompt you to choose a new number within the range. Also, if you do not choose any of the parameters, it will prompt you to choose at least one. 
 
 ## Usage
 When loading the page, press the "generate password" button to get you started. 
@@ -31,6 +31,8 @@ If you were to choose "cancel" for all parameters, it would then prompt you to c
 Once everything has been followed correctly, it will generate a random password given the parameters you have allowed. 
 
 <img src= "https://github.com/taylorhackbart/RandomPasswordGen/blob/master/images/img8.png">
+
+You can also click the "generate password" button, and it will start the process over 
 
 ## Technologies Used
 To create these pages, we have a very basic html page with some css styling to create the box. The main portion of this webpage has been developed using JavaScript. 
