@@ -25,7 +25,7 @@ function getPasswordOptions() {
   while (declareLength < 7 || declareLength > 121) {
     alert("Password length must be between 8-120 characters Try again");
     var declareLength = prompt(
-      "Please choose between 8-120 characters for your password to contain"
+      "Please choose a length for your password. Must be between 8-120 characters."
     );
   }
   alert("Your password will contain " + declareLength + " characters");
